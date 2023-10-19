@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 40rem;
+    border:1px solid gray;
+    padding: 1rem;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.count{
+    font-size: 3rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+input[type='text']{
+    border: 1px solid rgb(16, 16, 16);
+    border-radius: 2px;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}

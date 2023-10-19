@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,300;0,400;1,300;1,400&family=Prompt:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    box-sizing:border-box;
+}
+:root{
+    --primary-color:#000;
+    --secondary-color:#fff;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+
+}
+.time{
+    font-size: 60px;
+}
+.toggle{
+    cursor: pointer;
+    background-color:var(--primary-color) ;
+    color:var(--secondary-color);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    top:350px;
+}
+html.dark{
+    --primary-color:#fff;
+    --secondary-color:#333;
+}
+html.dark{
+    background-color: #111;
+    color: var(--primary-color);
+}
+html{
+    transition: all 0.5s ease-in;
+}
